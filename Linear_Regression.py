@@ -22,7 +22,11 @@ class LinearModel(torch.nn.Module):
 
 model = LinearModel()
 
+<<<<<<< HEAD
 criterion = torch.nn.MSELoss(size_average=False) # 均方差
+=======
+criterion = torch.nn.MSELoss(size_average=False)
+>>>>>>> master
 # 优化器 在进行梯度更新的时候用learningrate进行优化
 optimizer = torch.optim.SGD(model.parameters(), lr=0.01)
 '''
